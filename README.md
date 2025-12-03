@@ -21,7 +21,7 @@ src/
 ├── prepare_structures.py        # Clean & prepare protein models
 ├── design_library.py            # Generate peptide sequence libraries
 ├── docking_prep.py              # Prepare files for docking tools
-├── run_docking.sh               # Example docking script (e.g., Vina/HADDOCK)
+├── run_docking.sh               # Example docking script
 ├── parse_docking.py             # Extract poses & scores
 ├── scoring.py                   # Rank peptides by binding metrics
 ├── refine.py                    # MD-based refinement of top peptides

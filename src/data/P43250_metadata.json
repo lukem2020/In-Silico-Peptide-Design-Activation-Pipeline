@@ -1,0 +1,4434 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P43250",
+  "secondaryAccessions": [
+    "O60541",
+    "Q13652"
+  ],
+  "uniProtkbId": "GRK6_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "1995-11-01",
+    "lastAnnotationUpdateDate": "2025-06-18",
+    "lastSequenceUpdateDate": "2002-01-23",
+    "entryVersion": 223,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "G protein-coupled receptor kinase 6"
+      },
+      "ecNumbers": [
+        {
+          "value": "2.7.11.16"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "G protein-coupled receptor kinase GRK6"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "GRK6"
+      },
+      "synonyms": [
+        {
+          "value": "GPRK6"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19801552"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20048153"
+            }
+          ],
+          "value": "Specifically phosphorylates the activated forms of G protein-coupled receptors. Such receptor phosphorylation initiates beta-arrestin-mediated receptor desensitization, internalization, and signaling events leading to their desensitization. Seems to be involved in the desensitization of D2-like dopamine receptors in striatum and chemokine receptor CXCR4 which is critical for CXCL12-induced cell chemotaxis (By similarity). Phosphorylates rhodopsin (RHO) (in vitro) and a non G-protein-coupled receptor: LRP6 during Wnt signaling (in vitro)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "[G-protein-coupled receptor] + ATP = [G-protein-coupled receptor]-phosphate + ADP + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:12008"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11260"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11261"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:30616"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:43176"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:68546"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:456216"
+          }
+        ],
+        "ecNumber": "2.7.11.16"
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P97711"
+            }
+          ],
+          "value": "Interacts with GIT1"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P43250",
+            "intActId": "EBI-722747"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P05067",
+            "geneName": "APP",
+            "intActId": "EBI-77613"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P43250",
+            "intActId": "EBI-722747"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P32298",
+            "geneName": "GRK4",
+            "intActId": "EBI-5774453"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P43250",
+            "intActId": "EBI-722747"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P08238",
+            "geneName": "HSP90AB1",
+            "intActId": "EBI-352572"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P43250",
+            "intActId": "EBI-722747"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P52205",
+            "geneName": "ROM1",
+            "intActId": "EBI-8176947"
+          },
+          "numberOfExperiments": 9,
+          "organismDiffer": true
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P43250-2",
+            "intActId": "EBI-6428342"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P05067",
+            "geneName": "APP",
+            "intActId": "EBI-77613"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Membrane",
+            "id": "SL-0162"
+          },
+          "topology": {
+            "value": "Lipid-anchor",
+            "id": "SL-9901"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "ALTERNATIVE PRODUCTS",
+      "events": [
+        "Alternative splicing"
+      ],
+      "isoforms": [
+        {
+          "name": {
+            "value": "GRK6A"
+          },
+          "isoformIds": [
+            "P43250-1"
+          ],
+          "isoformSequenceStatus": "Displayed"
+        },
+        {
+          "name": {
+            "value": "GRK6B"
+          },
+          "isoformIds": [
+            "P43250-2"
+          ],
+          "sequenceIds": [
+            "VSP_004938"
+          ],
+          "isoformSequenceStatus": "Described"
+        },
+        {
+          "name": {
+            "value": "GRK6C"
+          },
+          "isoformIds": [
+            "P43250-3"
+          ],
+          "sequenceIds": [
+            "VSP_041813",
+            "VSP_041814"
+          ],
+          "isoformSequenceStatus": "Described"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8415712"
+            }
+          ],
+          "value": "Widely expressed"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7961702"
+            }
+          ],
+          "value": "It is uncertain whether palmitoylation is on Cys-561 and/or Cys-562 and/or Cys-565"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the protein kinase superfamily. AGC Ser/Thr protein kinase family. GPRK subfamily"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 576,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "G protein-coupled receptor kinase 6",
+      "featureId": "PRO_0000085974"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 53,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 171,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "RGS",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00171"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 186,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 448,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Protein kinase",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00159"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 449,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 514,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "AGC-kinase C-terminal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00618"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 185,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-terminal"
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 311,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 311,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Proton acceptor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00159"
+        },
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU10027"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 192,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 200,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:30616"
+        }
+      ],
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 215,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 215,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:30616"
+        }
+      ],
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 264,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 270,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:30616"
+        }
+      ],
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 315,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 318,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:30616"
+        }
+      ],
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 484,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 484,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphoserine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "18669648"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "19690332"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 485,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 485,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphothreonine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "18669648"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "19690332"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 566,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 566,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphoserine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "O70293"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 568,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 568,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphoserine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "O70293"
+        }
+      ]
+    },
+    {
+      "type": "Lipidation",
+      "location": {
+        "start": {
+          "value": 561,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 561,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "S-palmitoyl cysteine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ]
+    },
+    {
+      "type": "Lipidation",
+      "location": {
+        "start": {
+          "value": 562,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 562,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "S-palmitoyl cysteine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ]
+    },
+    {
+      "type": "Lipidation",
+      "location": {
+        "start": {
+          "value": 565,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 565,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "S-palmitoyl cysteine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ]
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 560,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 576,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform GRK6B",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "10506199"
+        }
+      ],
+      "featureId": "VSP_004938",
+      "alternativeSequence": {
+        "originalSequence": "DCCGNCSDSEEELPTRL",
+        "alternativeSequences": [
+          "RIAVETAATARKSSPPASSPQPEAPTSSWR"
+        ]
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 560,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 560,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform GRK6C",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "10506199"
+        }
+      ],
+      "featureId": "VSP_041813",
+      "alternativeSequence": {
+        "originalSequence": "D",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 561,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 576,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform GRK6C",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "10506199"
+        }
+      ],
+      "featureId": "VSP_041814",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 31,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 31,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in a gastric adenocarcinoma sample; somatic mutation; dbSNP:rs141014084",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs141014084"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17344846"
+        }
+      ],
+      "featureId": "VAR_040524",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "Q"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs56382815",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs56382815"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17344846"
+        }
+      ],
+      "featureId": "VAR_040525",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 275,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 275,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in a breast infiltrating ductal carcinoma sample; somatic mutation",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17344846"
+        }
+      ],
+      "featureId": "VAR_040526",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 6,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 6,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "12-13 fold defects in kinase activity; 180-fold defects in kinase activity; when associated with A-7.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20729810"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 7,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 7,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "12-13 fold defects in kinase activity; 180-fold defects in kinase activity; when associated with A-6.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20729810"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 9,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 9,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "140-fold defects in kinase activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20729810"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "N",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 12,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 12,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "1100-fold defects in kinase activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "20729810"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 561,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 561,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolishes palmitoylation; when associated with S-562 and S-565.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 562,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 562,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolishes palmitoylation; when associated with S-561 and S-565.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 565,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 565,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolishes palmitoylation; when associated with S-561 and S-562.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7961702"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 60,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 61,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA60175",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "QP",
+        "alternativeSequences": [
+          "HA"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 104,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 105,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA60175",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "QL",
+        "alternativeSequences": [
+          "HV"
+        ]
+      }
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 3,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYN"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 23,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 25,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYN"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 30,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 33,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 40,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 42,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 43,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 48,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 53,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 57,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 61,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 71,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 75,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 91,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 95,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 97,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 98,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 109,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 112,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 114,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 117,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 120,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYN"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 123,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 135,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 139,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 142,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 143,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 153,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 156,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 162,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 165,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 177,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 183,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 185,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 186,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 195,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 198,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 205,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 206,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 208,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 211,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 218,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 219,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 224,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 228,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 240,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 249,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 254,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 256,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 263,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 271,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 276,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 277,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 280,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 285,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 304,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 314,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 316,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 317,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 319,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 325,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 327,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 349,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 351,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 354,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 357,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 361,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 364,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 365,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 380,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 384,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 386,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 388,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 390,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 394,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 403,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 410,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 412,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYN"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 414,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 423,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 428,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 430,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 435,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 437,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 438,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 443,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 446,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 448,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 453,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 457,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 477,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 479,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYO"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 493,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 502,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 508,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 517,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 520,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 525,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 527,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 530,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2ACX"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 549,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 555,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3NYN"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0025",
+      "category": "Coding sequence diversity",
+      "name": "Alternative splicing"
+    },
+    {
+      "id": "KW-0067",
+      "category": "Ligand",
+      "name": "ATP-binding"
+    },
+    {
+      "id": "KW-0418",
+      "category": "Molecular function",
+      "name": "Kinase"
+    },
+    {
+      "id": "KW-0449",
+      "category": "PTM",
+      "name": "Lipoprotein"
+    },
+    {
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "id": "KW-0547",
+      "category": "Ligand",
+      "name": "Nucleotide-binding"
+    },
+    {
+      "id": "KW-0564",
+      "category": "PTM",
+      "name": "Palmitate"
+    },
+    {
+      "id": "KW-0597",
+      "category": "PTM",
+      "name": "Phosphoprotein"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0723",
+      "category": "Molecular function",
+      "name": "Serine/threonine-protein kinase"
+    },
+    {
+      "id": "KW-0808",
+      "category": "Molecular function",
+      "name": "Transferase"
+    },
+    {
+      "id": "KW-0879",
+      "category": "Biological process",
+      "name": "Wnt signaling pathway"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "8366096",
+        "citationType": "journal article",
+        "authors": [
+          "Benovic J.L.",
+          "Gomez J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8366096"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(19)36546-9"
+          }
+        ],
+        "title": "Molecular cloning and expression of GRK6. A new member of the G protein-coupled receptor kinase family.",
+        "publicationDate": "1993",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "19521",
+        "lastPage": "19527",
+        "volume": "268"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM GRK6A)"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "10506199",
+        "citationType": "journal article",
+        "authors": [
+          "Premont R.T.",
+          "Macrae A.D.",
+          "Aparicio S.A.",
+          "Kendall H.E.",
+          "Welch J.E.",
+          "Lefkowitz R.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10506199"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.274.41.29381"
+          }
+        ],
+        "title": "The GRK4 subfamily of G protein-coupled receptor kinases. Alternative splicing, gene organization, and sequence conservation.",
+        "publicationDate": "1999",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "29381",
+        "lastPage": "29389",
+        "volume": "274"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS GRK6B AND GRK6C)"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "15372022",
+        "citationType": "journal article",
+        "authors": [
+          "Schmutz J.",
+          "Martin J.",
+          "Terry A.",
+          "Couronne O.",
+          "Grimwood J.",
+          "Lowry S.",
+          "Gordon L.A.",
+          "Scott D.",
+          "Xie G.",
+          "Huang W.",
+          "Hellsten U.",
+          "Tran-Gyamfi M.",
+          "She X.",
+          "Prabhakar S.",
+          "Aerts A.",
+          "Altherr M.",
+          "Bajorek E.",
+          "Black S.",
+          "Branscomb E.",
+          "Caoile C.",
+          "Challacombe J.F.",
+          "Chan Y.M.",
+          "Denys M.",
+          "Detter J.C.",
+          "Escobar J.",
+          "Flowers D.",
+          "Fotopulos D.",
+          "Glavina T.",
+          "Gomez M.",
+          "Gonzales E.",
+          "Goodstein D.",
+          "Grigoriev I.",
+          "Groza M.",
+          "Hammon N.",
+          "Hawkins T.",
+          "Haydu L.",
+          "Israni S.",
+          "Jett J.",
+          "Kadner K.",
+          "Kimball H.",
+          "Kobayashi A.",
+          "Lopez F.",
+          "Lou Y.",
+          "Martinez D.",
+          "Medina C.",
+          "Morgan J.",
+          "Nandkeshwar R.",
+          "Noonan J.P.",
+          "Pitluck S.",
+          "Pollard M.",
+          "Predki P.",
+          "Priest J.",
+          "Ramirez L.",
+          "Retterer J.",
+          "Rodriguez A.",
+          "Rogers S.",
+          "Salamov A.",
+          "Salazar A.",
+          "Thayer N.",
+          "Tice H.",
+          "Tsai M.",
+          "Ustaszewska A.",
+          "Vo N.",
+          "Wheeler J.",
+          "Wu K.",
+          "Yang J.",
+          "Dickson M.",
+          "Cheng J.-F.",
+          "Eichler E.E.",
+          "Olsen A.",
+          "Pennacchio L.A.",
+          "Rokhsar D.S.",
+          "Richardson P.",
+          "Lucas S.M.",
+          "Myers R.M.",
+          "Rubin E.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15372022"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature02919"
+          }
+        ],
+        "title": "The DNA sequence and comparative analysis of human chromosome 5.",
+        "publicationDate": "2004",
+        "journal": "Nature",
+        "firstPage": "268",
+        "lastPage": "274",
+        "volume": "431"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM GRK6A)"
+      ],
+      "referenceComments": [
+        {
+          "value": "Uterus",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "8415712",
+        "citationType": "journal article",
+        "authors": [
+          "Haribabu B.",
+          "Snyderman R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8415712"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.90.20.9398"
+          }
+        ],
+        "title": "Identification of additional members of human G-protein-coupled receptor kinase multigene family.",
+        "publicationDate": "1993",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "firstPage": "9398",
+        "lastPage": "9402",
+        "volume": "90"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] OF 33-576",
+        "TISSUE SPECIFICITY"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "7961702",
+        "citationType": "journal article",
+        "authors": [
+          "Stoffel R.H.",
+          "Randall R.R.",
+          "Premont R.T.",
+          "Lefkowitz R.J.",
+          "Inglese J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7961702"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(18)46852-4"
+          }
+        ],
+        "title": "Palmitoylation of G protein-coupled receptor kinase, GRK6. Lipid modification diversity in the GRK family.",
+        "publicationDate": "1994",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "27791",
+        "lastPage": "27794",
+        "volume": "269"
+      },
+      "referencePositions": [
+        "PALMITOYLATION AT CYS-561; CYS-562 AND CYS-565",
+        "MUTAGENESIS OF CYS-561; CYS-562 AND CYS-565"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "18669648",
+        "citationType": "journal article",
+        "authors": [
+          "Dephoure N.",
+          "Zhou C.",
+          "Villen J.",
+          "Beausoleil S.A.",
+          "Bakalarski C.E.",
+          "Elledge S.J.",
+          "Gygi S.P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18669648"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.0805139105"
+          }
+        ],
+        "title": "A quantitative atlas of mitotic phosphorylation.",
+        "publicationDate": "2008",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "firstPage": "10762",
+        "lastPage": "10767",
+        "volume": "105"
+      },
+      "referencePositions": [
+        "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-484 AND THR-485",
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Cervix carcinoma",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "19801552",
+        "citationType": "journal article",
+        "authors": [
+          "Chen M.",
+          "Philipp M.",
+          "Wang J.",
+          "Premont R.T.",
+          "Garrison T.R.",
+          "Caron M.G.",
+          "Lefkowitz R.J.",
+          "Chen W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19801552"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.m109.047456"
+          }
+        ],
+        "title": "G Protein-coupled receptor kinases phosphorylate LRP6 in the Wnt pathway.",
+        "publicationDate": "2009",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "35040",
+        "lastPage": "35048",
+        "volume": "284"
+      },
+      "referencePositions": [
+        "FUNCTION IN PHOSPHORYLATION OF LRP6"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "19690332",
+        "citationType": "journal article",
+        "authors": [
+          "Mayya V.",
+          "Lundgren D.H.",
+          "Hwang S.-I.",
+          "Rezaul K.",
+          "Wu L.",
+          "Eng J.K.",
+          "Rodionov V.",
+          "Han D.K."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19690332"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/scisignal.2000007"
+          }
+        ],
+        "title": "Quantitative phosphoproteomic analysis of T cell receptor signaling reveals system-wide modulation of protein-protein interactions.",
+        "publicationDate": "2009",
+        "journal": "Sci. Signal.",
+        "firstPage": "RA46",
+        "lastPage": "RA46",
+        "volume": "2"
+      },
+      "referencePositions": [
+        "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-484 AND THR-485",
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Leukemic T-cell",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "20048153",
+        "citationType": "journal article",
+        "authors": [
+          "Busillo J.M.",
+          "Armando S.",
+          "Sengupta R.",
+          "Meucci O.",
+          "Bouvier M.",
+          "Benovic J.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "20048153"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.m109.091173"
+          }
+        ],
+        "title": "Site-specific phosphorylation of CXCR4 is dynamically regulated by multiple kinases and results in differential modulation of CXCR4 signaling.",
+        "publicationDate": "2010",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "7805",
+        "lastPage": "7817",
+        "volume": "285"
+      },
+      "referencePositions": [
+        "FUNCTION IN PHOSPHORYLATION OF CXCR4"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "16613860",
+        "citationType": "journal article",
+        "authors": [
+          "Lodowski D.T.",
+          "Tesmer V.M.",
+          "Benovic J.L.",
+          "Tesmer J.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16613860"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.m601327200"
+          }
+        ],
+        "title": "The structure of G protein-coupled receptor kinase (GRK)-6 defines a second lineage of GRKs.",
+        "publicationDate": "2006",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "16785",
+        "lastPage": "16793",
+        "volume": "281"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS)"
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "20729810",
+        "citationType": "journal article",
+        "authors": [
+          "Boguth C.A.",
+          "Singh P.",
+          "Huang C.C.",
+          "Tesmer J.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "20729810"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/emboj.2010.206"
+          }
+        ],
+        "title": "Molecular basis for activation of G protein-coupled receptor kinases.",
+        "publicationDate": "2010",
+        "journal": "EMBO J.",
+        "firstPage": "3249",
+        "lastPage": "3259",
+        "volume": "29"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.72 ANGSTROMS) IN COMPLEX WITH AMP AND SANGIVAMYCIN",
+        "MUTAGENESIS OF ILE-6; VAL-7; ASN-9 AND LEU-12"
+      ]
+    },
+    {
+      "referenceNumber": 13,
+      "citation": {
+        "id": "17344846",
+        "citationType": "journal article",
+        "authors": [
+          "Greenman C.",
+          "Stephens P.",
+          "Smith R.",
+          "Dalgliesh G.L.",
+          "Hunter C.",
+          "Bignell G.",
+          "Davies H.",
+          "Teague J.",
+          "Butler A.",
+          "Stevens C.",
+          "Edkins S.",
+          "O'Meara S.",
+          "Vastrik I.",
+          "Schmidt E.E.",
+          "Avis T.",
+          "Barthorpe S.",
+          "Bhamra G.",
+          "Buck G.",
+          "Choudhury B.",
+          "Clements J.",
+          "Cole J.",
+          "Dicks E.",
+          "Forbes S.",
+          "Gray K.",
+          "Halliday K.",
+          "Harrison R.",
+          "Hills K.",
+          "Hinton J.",
+          "Jenkinson A.",
+          "Jones D.",
+          "Menzies A.",
+          "Mironenko T.",
+          "Perry J.",
+          "Raine K.",
+          "Richardson D.",
+          "Shepherd R.",
+          "Small A.",
+          "Tofts C.",
+          "Varian J.",
+          "Webb T.",
+          "West S.",
+          "Widaa S.",
+          "Yates A.",
+          "Cahill D.P.",
+          "Louis D.N.",
+          "Goldstraw P.",
+          "Nicholson A.G.",
+          "Brasseur F.",
+          "Looijenga L.",
+          "Weber B.L.",
+          "Chiew Y.-E.",
+          "DeFazio A.",
+          "Greaves M.F.",
+          "Green A.R.",
+          "Campbell P.",
+          "Birney E.",
+          "Easton D.F.",
+          "Chenevix-Trench G.",
+          "Tan M.-H.",
+          "Khoo S.K.",
+          "Teh B.T.",
+          "Yuen S.T.",
+          "Leung S.Y.",
+          "Wooster R.",
+          "Futreal P.A.",
+          "Stratton M.R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17344846"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature05610"
+          }
+        ],
+        "title": "Patterns of somatic mutation in human cancer genomes.",
+        "publicationDate": "2007",
+        "journal": "Nature",
+        "firstPage": "153",
+        "lastPage": "158",
+        "volume": "446"
+      },
+      "referencePositions": [
+        "VARIANTS [LARGE SCALE ANALYSIS] GLN-31; MET-73 AND MET-275"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "L16862",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA60175.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF040751",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC09273.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF040752",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC09274.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC145098",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC009277",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH09277.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U00686",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA03565.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS34303.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "P43250-1"
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS43406.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "P43250-3"
+    },
+    {
+      "database": "PIR",
+      "id": "A48765",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "A48765"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001004105.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001004105.3"
+        }
+      ],
+      "isoformId": "P43250-3"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001004106.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001004106.3"
+        }
+      ],
+      "isoformId": "P43250-1"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_002073.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_002082.4"
+        }
+      ],
+      "isoformId": "P43250-2"
+    },
+    {
+      "database": "PDB",
+      "id": "2ACX",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.60 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-576"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3NYN",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.72 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=2-576"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3NYO",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.92 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=2-576"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2ACX",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3NYN",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3NYO",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "109128",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "139"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "2317"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "119"
+        }
+      ]
+    },
+    {
+      "database": "MINT",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000347655",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BindingDB",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL6144",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugCentral",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GuidetoPHARMACOLOGY",
+      "id": "1470",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CarbonylDB",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SwissPalm",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "GRK6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "20141386",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000433511",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "55602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "P43250-1"
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "55603",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "P43250-2"
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "55604",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "P43250-3"
+    },
+    {
+      "database": "Pumba",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ABCD",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "1 sequenced antibody"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "17408",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "405 antibodies from 37 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000355472.10",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000347655.5"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000198055.11"
+        }
+      ],
+      "isoformId": "P43250-1"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000355958.9",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000348230.5"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000198055.11"
+        }
+      ],
+      "isoformId": "P43250-3"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000528793.5",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000433511.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000198055.11"
+        }
+      ],
+      "isoformId": "P43250-2"
+    },
+    {
+      "database": "GeneID",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000355472.10",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000347655.5"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_001004106.3"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_001004106.1"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc003mgq.3",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ],
+      "isoformId": "P43250-1"
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:4545",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "GRK6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:4545",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "GRK6"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000198055",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enhanced (bone)"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "600869",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "neXtProt",
+      "id": "NX_P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000198055",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PharmGKB",
+      "id": "PA28942",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000198055",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG0986",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000158544",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "NYLNPKC",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "354826at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "5 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "TreeFam",
+      "id": "TF313940",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.7.11.16",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-418555",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "G alpha (s) signalling events"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SIGNOR",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "16 hits in 1189 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "GRK6",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "GRK6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "2870",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tchem"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:P43250",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 5"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000198055",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in granulocyte and 203 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "P43250",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005737",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytoplasm"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016020",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "HDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007005",
+          "source": "PubMed",
+          "id": "19946888"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005886",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:plasma membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005524",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:ATP binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0047696",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:beta-adrenergic receptor kinase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CACAO"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "20038610"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004703",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:G protein-coupled receptor kinase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0007186",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:G protein-coupled receptor signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008277",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:regulation of G protein-coupled receptor signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:ProtInc"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000304",
+          "source": "PubMed",
+          "id": "8077221"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009966",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:regulation of signal transduction"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:Wnt signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd05630",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "STKc_GRK6"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.167.10:FF:000009",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "G protein-coupled receptor kinase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.510.10:FF:000074",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "G protein-coupled receptor kinase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "6.10.250.2260",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.30.200.20",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Phosphorylase Kinase, domain 1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.167.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Regulator of G-protein Signalling 4, domain 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.510.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Transferase(Phosphotransferase) domain 1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR000961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "AGC-kinase_C"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR000239",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GPCR_kinase"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR011009",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kinase-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR000719",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Prot_kinase_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017441",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Protein_kinase_ATP_BS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR016137",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036305",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR044926",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS_subdomain_2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008271",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ser/Thr_kinase_AS"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24355:SF15",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "G PROTEIN-COUPLED RECEPTOR KINASE 6"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24355",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "G PROTEIN-COUPLED RECEPTOR KINASE/RIBOSOMAL PROTEIN S6 KINASE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00069",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pkinase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00615",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00717",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GPCRKINASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00315",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00133",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "S_TK_X"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00220",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "S_TKc"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF56112",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Protein kinase-like (PK-like)"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF48097",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Regulator of G-protein signaling, RGS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51285",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "AGC_KINASE_CTER"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00107",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PROTEIN_KINASE_ATP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50011",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PROTEIN_KINASE_DOM"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00108",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PROTEIN_KINASE_ST"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50132",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RGS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MELENIVANTVLLKAREGGGGNRKGKSKKWRQMLQFPHISQCEELRLSLERDYHSLCERQPIGRLLFREFCATRPELSRCVAFLDGVAEYEVTPDDKRKACGRQLTQNFLSHTGPDLIPEVPRQLVTNCTQRLEQGPCKDLFQELTRLTHEYLSVAPFADYLDSIYFNRFLQWKWLERQPVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKQILEKVNSRFVVSLAYAYETKDALCLVLTLMNGGDLKFHIYHMGQAGFPEARAVFYAAEICCGLEDLHRERIVYRDLKPENILLDDHGHIRISDLGLAVHVPEGQTIKGRVGTVGYMAPEVVKNERYTFSPDWWALGCLLYEMIAGQSPFQQRKKKIKREEVERLVKEVPEEYSERFSPQARSLCSQLLCKDPAERLGCRGGSAREVKEHPLFKKLNFKRLGAGMLEPPFKPDPQAIYCKDVLDIEQFSTVKGVELEPTDQDFYQKFATGSVPIPWQNEMVETECFQELNVFGLDGSVPPDLDWKGQPPAPPKKGLLQRLFSRQDCCGNCSDSEEELPTRL",
+    "length": 576,
+    "molWeight": 65991,
+    "crc64": "3BF8C3B1CDE2BD74",
+    "md5": "72A77901783B5049957F816D989CAEE0"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 1,
+      "SUBUNIT": 1,
+      "INTERACTION": 5,
+      "SUBCELLULAR LOCATION": 1,
+      "ALTERNATIVE PRODUCTS": 3,
+      "TISSUE SPECIFICITY": 1,
+      "PTM": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Domain": 3,
+      "Region": 1,
+      "Active site": 1,
+      "Binding site": 4,
+      "Modified residue": 4,
+      "Lipidation": 3,
+      "Alternative sequence": 3,
+      "Natural variant": 3,
+      "Mutagenesis": 7,
+      "Sequence conflict": 2,
+      "Helix": 32,
+      "Beta strand": 17,
+      "Turn": 3
+    },
+    "uniParcId": "UPI000012BADE"
+  }
+}
