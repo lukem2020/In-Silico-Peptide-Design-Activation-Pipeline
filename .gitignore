@@ -1,5 +1,2 @@
 .venv
-src/data/
-src/data/*.fasta
-src/data/*.json
-src/data/*.pdb
+src/data/*
