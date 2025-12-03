@@ -1,5 +1,5 @@
 .venv
-./data/
-./data/*.fasta
-./data/*.json
-./data/*.pdb
+src/data/
+src/data/*.fasta
+src/data/*.json
+src/data/*.pdb
