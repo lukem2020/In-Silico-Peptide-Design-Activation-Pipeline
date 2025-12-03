@@ -4,7 +4,8 @@ import logging
 import json
 
 UNIPROT_ID = "P43250"
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# Go up one level from src/ to root, then into data/
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 FASTA_PATH = os.path.join(DATA_DIR, "%s.fasta" % UNIPROT_ID)
 METADATA_PATH = os.path.join(DATA_DIR, "%s_metadata.json" % UNIPROT_ID)
 STRUCTURE_PATH = os.path.join(DATA_DIR, "%s_structure.pdb" % UNIPROT_ID)

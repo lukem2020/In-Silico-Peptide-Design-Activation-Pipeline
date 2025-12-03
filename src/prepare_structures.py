@@ -9,7 +9,8 @@ import subprocess
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Default paths (can be overridden)
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# Go up one level from src/ to root, then into data/
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 UNIPROT_ID = "P43250"
 INPUT_PDB = os.path.join(DATA_DIR, "%s_structure.pdb" % UNIPROT_ID)
 OUTPUT_PDB = os.path.join(DATA_DIR, "%s_receptor_clean.pdb" % UNIPROT_ID)
