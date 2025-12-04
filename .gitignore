@@ -6,3 +6,8 @@ data/*_receptor_clean.pdb
 data/temp_*.pdb
 # Ignore generated FASTA files
 data/*.fasta
+# Windows reserved names (CON, PRN, AUX, NUL, etc.)
+nul
+CON
+PRN
+AUX
