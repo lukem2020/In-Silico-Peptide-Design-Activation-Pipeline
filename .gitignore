@@ -4,7 +4,5 @@ data/*_metadata.json
 data/*_structure.pdb
 data/*_receptor_clean.pdb
 data/temp_*.pdb
-# Ignore generated FASTA files (but keep template files like glp1.fasta)
-data/P*.fasta
-# Keep template files
-!data/glp1.fasta
+# Ignore generated FASTA files
+data/*.fasta
